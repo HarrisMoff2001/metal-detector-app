@@ -15,7 +15,7 @@ document.addEventListener("mouseover", (e) => {
 });
 document.addEventListener("mouseout", (e) => {
     if (e.target.classList.contains("metal")) {
-        metalDetectorNoise.pause(); // Stop the sound when the mouse leaves a metal element
-        metalDetectorNoise.currentTime = 0; // Reset the sound for next time
+        metalDetectorNoise.pause();
+        metalDetectorNoise.currentTime = 0;
     }
 });
